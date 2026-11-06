@@ -12,7 +12,7 @@ export function createApp(): Application {
 
   app.get("/", (req: Request, res: Response) => {
     res.status(200).json({
-      message: "InvestCol API - Entrega 2",
+      message: "InvestCol API - Entrega 4",
       status: "online",
       environment: env.nodeEnv,
     });
